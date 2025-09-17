@@ -130,11 +130,12 @@ a:focus {
   width: 100%;
   height: 100%;
 
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+
+}
+
+.logo {
+  width: 200px;  
+  height: 200px;  
 }
 
 .sub_page {
@@ -262,6 +263,7 @@ a:focus {
 
 .custom_nav-container .navbar-toggler {
   outline: none;
+  color: #000000;
 }
 
 .custom_nav-container .navbar-toggler {
@@ -269,6 +271,7 @@ a:focus {
   width: 37px;
   height: 42px;
   transition: all 0.3s;
+  color: #000000;
 
   span {
     display: block;
@@ -436,8 +439,6 @@ a:focus {
           font-weight: bold
         }
       }
-
-      p {}
 
       a {
         @include hero_btn($primary1, $white, 10px, 30px, 45px);
