@@ -1005,3 +1005,15 @@ a:focus {
   color: inherit;
 }
 /*# sourceMappingURL=style.css.map */
+.custom_nav-container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Centrar el contenido del navbar (igual que footer) */
+.custom_nav-container .container-fluid {
+  max-width: 1140px; /* mismo ancho del footer */
+  margin: 0 auto;
+  padding: 0 15px;
+}
