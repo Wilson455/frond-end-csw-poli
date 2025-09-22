@@ -224,11 +224,11 @@
                         <td>03 Ene 2019</td>
                         <td>
                           <div class="d-flex align-items-center">
-                            <button type="button" class="btn btn-success btn-sm btn-icon-text mr-3">
+                            <button type="button" class="btn btn-success btn-sm btn-icon-text mr-3"  onclick="actualizar()">
                               Editar
                               <i class="typcn typcn-edit btn-icon-append"></i>                          
                             </button>
-                            <button type="button" class="btn btn-danger btn-sm btn-icon-text">
+                            <button type="button" class="btn btn-danger btn-sm btn-icon-text" onclick="borrar()">
                               Borrar
                               <i class="typcn typcn-delete-outline btn-icon-append"></i>                          
                             </button>
@@ -242,11 +242,11 @@
                         <td>09 Oct 2019</td>
                         <td>
                           <div class="d-flex align-items-center">
-                            <button type="button" class="btn btn-success btn-sm btn-icon-text mr-3">
+                            <button type="button" class="btn btn-success btn-sm btn-icon-text mr-3" onclick="actualizar()">
                               Editar
                               <i class="typcn typcn-edit btn-icon-append"></i>                          
                             </button>
-                            <button type="button" class="btn btn-danger btn-sm btn-icon-text">
+                            <button type="button" class="btn btn-danger btn-sm btn-icon-text" onclick="borrar()">
                               Borrar
                               <i class="typcn typcn-delete-outline btn-icon-append"></i>                          
                             </button>
@@ -260,11 +260,11 @@
                         <td>18 Jun 2019</td>
                         <td>
                           <div class="d-flex align-items-center">
-                            <button type="button" class="btn btn-success btn-sm btn-icon-text mr-3">
+                            <button type="button" class="btn btn-success btn-sm btn-icon-text mr-3" onclick="actualizar()">
                               Editar
                               <i class="typcn typcn-edit btn-icon-append"></i>                          
                             </button>
-                            <button type="button" class="btn btn-danger btn-sm btn-icon-text">
+                            <button type="button" class="btn btn-danger btn-sm btn-icon-text" onclick="borrar()">
                               Borrar
                               <i class="typcn typcn-delete-outline btn-icon-append"></i>                          
                             </button>
@@ -278,11 +278,11 @@
                         <td>23 Mar 2019</td>
                         <td>
                           <div class="d-flex align-items-center">
-                            <button type="button" class="btn btn-success btn-sm btn-icon-text mr-3">
+                            <button type="button" class="btn btn-success btn-sm btn-icon-text mr-3" onclick="actualizar()">
                               Editar
                               <i class="typcn typcn-edit btn-icon-append"></i>                          
                             </button>
-                            <button type="button" class="btn btn-danger btn-sm btn-icon-text">
+                            <button type="button" class="btn btn-danger btn-sm btn-icon-text" onclick="borrar()">
                               Borrar
                               <i class="typcn typcn-delete-outline btn-icon-append"></i>                          
                             </button>
@@ -296,11 +296,11 @@
                         <td>22 Ago 2019</td>
                         <td>
                           <div class="d-flex align-items-center">
-                            <button type="button" class="btn btn-success btn-sm btn-icon-text mr-3">
+                            <button type="button" class="btn btn-success btn-sm btn-icon-text mr-3" onclick="actualizar()">
                               Editar
                               <i class="typcn typcn-edit btn-icon-append"></i>                          
                             </button>
-                            <button type="button" class="btn btn-danger btn-sm btn-icon-text">
+                            <button type="button" class="btn btn-danger btn-sm btn-icon-text" onclick="borrar()">
                               Borrar
                               <i class="typcn typcn-delete-outline btn-icon-append"></i>                          
                             </button>
@@ -350,6 +350,14 @@
   <script src="js/dashboard.js"></script>
   <!-- End custom js for this page-->
 </body>
-
+<script>
+  function actualizar() {
+      window.location.href = "pages/forms/basic_elements_update.html";
+  }
+  function borrar() {
+      alert("desea borrar el servicio");
+  }
+  on
+</script>
 </html>
 
