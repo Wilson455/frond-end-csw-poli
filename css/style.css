@@ -6,6 +6,10 @@ body {
   overflow-x: hidden;
 }
 
+.nav-menu {
+  background-color: #133253;
+}
+
 .layout_padding {
   padding: 90px 0;
 }
